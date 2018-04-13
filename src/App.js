@@ -76,7 +76,7 @@ export default () => (
 
         <BS.Row>
             <BS.Col md={8} className="copyright">&copy; 2018 - ACME Inc.</BS.Col>
-            <BS.Col md={4} className="copyright text-right">Powered by <a href="http://nodely.ru">Nodely</a></BS.Col>
+            <BS.Col md={4} className="copyright text-right">Powered by <a href="https://nodely.me">Nodely</a></BS.Col>
         </BS.Row>
 
     </div>
