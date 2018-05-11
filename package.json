@@ -1,9 +1,10 @@
 {
   "name": "nodely-boilerplate",
-  "version": "0.1.0",
+  "version": "1.1.0",
+  "proxy": "http://localhost:3060/",
   "private": true,
   "dependencies": {
-    "nodely-libs": "^1.0.1",
+    "nodely-libs": "^1.0.2",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
