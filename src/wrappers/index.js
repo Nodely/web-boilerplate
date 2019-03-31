@@ -8,5 +8,6 @@
 import Form from './form'
 
 export {
-    Form
+  // eslint-disable-next-line import/prefer-default-export
+  Form,
 }

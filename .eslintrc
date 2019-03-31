@@ -1,0 +1,62 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+    "react/display-name": 0,
+    "react/jsx-no-bind": [
+      1,
+      {
+        "allowFunctions": 1,
+        "allowBind": 1,
+        "allowArrowFunctions": 1
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      1,
+      "after-props"
+    ],
+    "react/no-multi-comp": 0,
+    "react/no-array-index-key": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-max-props-per-line": [
+      1,
+      {"maximum": 5}
+    ],
+    "react/jsx-first-prop-new-line": [
+      0,
+      "multiline"
+    ],
+    "no-use-before-define": 0,
+    "no-underscore-dangle": 0,
+    "no-extra-semi": 1,
+    "semi": [
+      2,
+      "never"
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "no-console": 0,
+    "arrow-parens": 0
+  },
+  "globals": {
+    "console": true,
+    "fetch": true,
+    "navigator": true,
+    "window": true,
+    "document": true
+  }
+}

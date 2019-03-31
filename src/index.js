@@ -5,15 +5,15 @@
  * Copyright @ Nodely, 2018
  */
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Nodely from 'nodely-libs';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Nodely from 'nodely-libs'
+import App from './App'
+import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(
-    <Nodely>
-        <App/>
-    </Nodely>, document.getElementById('root'));
+  <Nodely>
+    <App />
+  </Nodely>, document.getElementById('root'))
 
-registerServiceWorker();
+registerServiceWorker()
