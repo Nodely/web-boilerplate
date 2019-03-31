@@ -18,7 +18,7 @@ export default (props) => {
                     return <BS.NavDropdown key={idx} eventKey={idx} title={item.title} id="main-menu-dropdown">
                         {item.children.map((child, child_idx) => {
                             return <LinkContainer to={child.path} key={child_idx}>
-                                <BS.MenuItem eventKey={child_idx}>{child.title}</BS.MenuItem>
+                                <BS.DropdownItem eventKey={child_idx}>{child.title}</BS.DropdownItem>
                             </LinkContainer>
                         })}
                     </BS.NavDropdown>
