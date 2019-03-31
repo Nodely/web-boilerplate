@@ -62,10 +62,10 @@ export default () => (
                             <h1>Share &amp; Connect</h1>
                         </header>
                         <p>
-                            <BS.Button bsStyle="link"><i className="fa fa-facebook"/></BS.Button>
-                            <BS.Button bsStyle="link"><i className="fa fa-vk"/></BS.Button>
-                            <BS.Button bsStyle="link"><i className="fa fa-twitter"/></BS.Button>
-                            <BS.Button bsStyle="link"><i className="fa fa-google-plus"/></BS.Button>
+                            <BS.Button variant="link"><i className="fa fa-facebook"/></BS.Button>
+                            <BS.Button variant="link"><i className="fa fa-vk"/></BS.Button>
+                            <BS.Button variant="link"><i className="fa fa-twitter"/></BS.Button>
+                            <BS.Button variant="link"><i className="fa fa-google-plus"/></BS.Button>
                         </p>
                     </article>
                 </div>
