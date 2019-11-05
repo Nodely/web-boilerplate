@@ -1,4 +1,14 @@
-FROM nodely/base:latest
-MAINTAINER Ivan Soloviev <info@nodely.ru>
+FROM node:12 as BUILDER
 
-COPY ./build /usr/share/nginx/html
+WORKDIR /opt/app
+
+COPY package.json yarn.lock ./
+RUN yarn
+
+COPY . .
+RUN yarn build
+
+FROM nodely/base:latest
+LABEL Author Ivan Soloviev <info@nodely.ru>
+
+COPY --from=BUILDER /opt/app/build /usr/share/nginx/html
